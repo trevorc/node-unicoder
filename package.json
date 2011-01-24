@@ -1,0 +1,9 @@
+{ "name": "unicoder"
+, "description": "detect and normalize encodings of text"
+, "version": "0.0.1"
+, "homepage": "https://github.com/trevorc/node-unicoder"
+, "author": "Trevor Caira <trevor@caira.com>"
+, "scripts": { "build": "node-waf configure build" }
+, "main": "./unicoder"
+, "dependencies": { "iconv": "*" }
+}
